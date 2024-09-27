@@ -25,9 +25,10 @@ const greeting = {
   subTitle:
     "A passionate individual who always challenges status quo to develop sustainable products that bring positive impact to the society.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing", // need to change resume link
+  portfolio_repository: "https://github.com/damiancxliew",
   githubProfile: "https://github.com/damiancxliew",
+  imageSrc: "Formal_pic.jpg",
 };
 
 const socialMediaLinks = [
@@ -546,7 +547,7 @@ const experience = {
           title: "Student Researcher",
           company: "Nanyang Technological University",
           company_url: "https://www.ntu.edu.sg/",
-          logo_path: "nus.png",
+          logo_path: "ntu.png",
           duration: "Mar 2022 - Feb 2023",
           location: "Singapore",
           description:
@@ -557,7 +558,7 @@ const experience = {
           title: "Student Researcher",
           company: "Nanyang Technological University",
           company_url: "https://www.ntu.edu.sg/",
-          logo_path: "nus.png",
+          logo_path: "ntu.png",
           duration: "Mar 2021 - Feb 2022",
           location: "Singapore",
           description:
@@ -684,38 +685,41 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. They range from interactive websites to AI research.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
+  // title: "Projects",
+  // description: "Some of my projects and research work.",
+  // avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id: "Recognition of Handwritten Mathematical Expressions",
+      name: "Recognition of Handwritten Mathematical Expressions",
+      createdAt: "2022 - 2023T00:00:00Z",
+      description:
+        "Participated in the Nanyang Research Programme where I collaborated with Nanyang Technological University on an innovative research project focused on the recognition of handwritten mathematical expressions. This experience not only deepened my understanding of neural network architectures but also honed my research and problem-solving skills in a cutting-edge technological domain.",
+      // url: "",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id: "Amazon Web Services (AWS): Build On, ASEAN 2021 Hackathon",
+      name: "Amazon Web Services (AWS): Build On, ASEAN 2021 Hackathon",
+      createdAt: "2021T00:00:00Z",
+      description:
+        "Developed a website as a prototype to help encourage people to sell and buy pre-owned products on Carousell. Solution was divided into 3 parts, which are point-based reward system, warranty system and wish-list system. Achieved 1st Runner Up in Junior Category (Singapore)",
+      // url: "https://blog.paperspace.com/mdp-diffusion/",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "The Lo-Car",
+      name: "The Lo-Car",
+      createdAt: "2020 - 2021T00:00:00Z",
+      description:
+        "Developed a mobile application using MIT App Inventor and Firebase to help forgetful drivers to find the exact location of their parked cars. Achieved Merit Award in the Tan Kah Kee Young Inventors Award.",
+      // url: "https://arxiv.org/abs/2307.00653",
     },
   ],
 };
@@ -724,27 +728,26 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+    profile_image_path: "Formal_pic_cropped.png",
+    description: "",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+  //   link: "https://blogs.ashutoshhathidara.com/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "21 Lower Kent Ridge Rd, Singapore 119077",
+    locality: "Singapore",
+    country: "Singapore",
+    region: "Singapore",
+    postalCode: "119077",
+    streetAddress: "21 Lower Kent Ridge Rd",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/mHXWeLWM2VFW1Y2J9",
   },
   phoneSection: {
     title: "",

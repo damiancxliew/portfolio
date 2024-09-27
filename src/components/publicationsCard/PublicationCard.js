@@ -6,6 +6,7 @@ export default function PublicationCard({ pub, theme }) {
   function openPubinNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
+    // onClick={() => openPubinNewTab(pub.url)}
   }
 
   return (
@@ -13,8 +14,8 @@ export default function PublicationCard({ pub, theme }) {
       className="publication-card-div"
       style={{ backgroundColor: theme.highlight }}
     >
-      <Fade bottom duration={2000} distance="40px">
-        <div key={pub.id} onClick={() => openPubinNewTab(pub.url)}>
+      <Fade bottom duration={500} distance="40px">
+        <div key={pub.id}>
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
               {pub.name}
@@ -28,7 +29,7 @@ export default function PublicationCard({ pub, theme }) {
               className="publication-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Published on {pub.createdAt.split("T")[0]}
+              {pub.createdAt.split("T")[0]}
             </p>
           </div>
           {/* <div className="repo-stats">

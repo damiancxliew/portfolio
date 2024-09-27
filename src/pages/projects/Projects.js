@@ -54,18 +54,11 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
 
         {/* Publications  */}
         {publications.data.length > 0 ? (
           <div className="basic-projects">
-            <Fade bottom duration={2000} distance="40px">
+            <Fade bottom duration={500} distance="40px">
               <div className="publications-heading-div">
                 <div className="publications-heading-text-div">
                   <h1
@@ -78,7 +71,7 @@ class Projects extends Component {
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {publicationsHeader["description"]}
+                    {publicationsHeader.description}
                   </p>
                 </div>
               </div>
@@ -91,6 +84,14 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
+
+        <Button
+          text={"More Projects"}
+          className="project-button"
+          href={greeting.githubProfile}
+          newTab={true}
+          theme={theme}
+        />
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
