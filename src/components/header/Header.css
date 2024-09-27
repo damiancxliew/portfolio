@@ -1,10 +1,10 @@
 /* header */
 
 .header {
-  display: block;
+  display: flex;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  /* margin: 0px auto; */
 }
 
 .header ul {
@@ -39,7 +39,8 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  /* font-family: "Agustina Regular"; */
+  font-family: "Google Sans Regular";
   font-weight: bold;
   padding: 0 10px;
   /* color: #55198b; */
