@@ -56,7 +56,7 @@ class IssueCard extends Component {
     }
 
     return (
-      <Fade bottom duration={2000} distance="40px">
+      <Fade bottom duration={500} distance="40px">
         <div
           className="issue-card"
           style={{

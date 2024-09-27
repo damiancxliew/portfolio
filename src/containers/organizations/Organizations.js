@@ -10,7 +10,7 @@ class Organizations extends Component {
     return (
       <div id="organizations">
         <div className="organizations-header-div">
-          <Fade bottom duration={2000} distance="20px">
+          <Fade bottom duration={500} distance="20px">
             <h1 className="organizations-header" style={{ color: theme.text }}>
               Contributed Organizations
             </h1>

@@ -65,7 +65,7 @@ class PullRequestCard extends Component {
     }
 
     return (
-      <Fade bottom duration={2000} distance="40px">
+      <Fade bottom duration={500} distance="40px">
         <div
           className="pull-request-card"
           style={{

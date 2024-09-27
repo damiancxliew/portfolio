@@ -10,7 +10,7 @@ class PullRequests extends Component {
     return (
       <div>
         <div className="pull-requests-header-div">
-          <Fade bottom duration={2000} distance="20px">
+          <Fade bottom duration={500} distance="20px">
             <h1 className="pull-requests-header" style={{ color: theme.text }}>
               Pull Requests
             </h1>
