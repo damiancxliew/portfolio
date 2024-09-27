@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Damian Liew Cho Xiang",
     type: "website",
-    url: "http://damiancxliew.com/",
+    url: "https://damiancxliew.netlify.app",
   },
 };
 
