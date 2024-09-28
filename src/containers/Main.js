@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, BrowserRouter, HashRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -13,7 +13,7 @@ import Error404 from "../pages/errors/error404/Error";
 export default class Main extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <BrowserRouter basename="/">
         <Switch>
           <Route
             path="/"
@@ -27,7 +27,7 @@ export default class Main extends Component {
             }
           />
           <Route
-            path="/"
+            path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
@@ -43,12 +43,12 @@ export default class Main extends Component {
               <Education {...props} theme={this.props.theme} />
             )}
           />
-          {/* <Route
+          <Route
             path="/opensource"
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
-          /> */}
+          />
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
@@ -70,7 +70,7 @@ export default class Main extends Component {
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
           />
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
