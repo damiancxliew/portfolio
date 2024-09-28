@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Damian Liew Cho Xiang",
     type: "website",
-    url: "https://damiancxliew.netlify.app",
+    url: "https://damiancxliew.github.io/portfolio",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always challenges status quo to develop sustainable products that bring positive impact to the society.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing", // need to change resume link
-  portfolio_repository: "https://github.com/damiancxliew",
+  portfolio_repository: "https://github.com/damiancxliew/portfolio",
   githubProfile: "https://github.com/damiancxliew",
   imageSrc: "Formal_pic.jpg",
 };
