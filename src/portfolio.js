@@ -410,23 +410,32 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Foundations of Cybersecurity",
-      subtitle: "- Cybersecurity Training",
+      title: "Cybersecurity Professional Certificate",
+      subtitle: "- Google",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/OLHZ6SNBSNT2",
+        "https://www.coursera.org/account/accomplishments/professional-cert/BAPCYO2JFUS0?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
       alt_name: "Google",
-      color_code: "#8C151599",
+      color_code: "#0C9D5899",
     },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
+    {
+      title: "Advanced Data Analytics",
+      subtitle: "- Google",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/professional-cert/HHA31LI5VC31?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Machine Learning & GenAI",
+      subtitle: "- AWS",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1TLVLRajnq-Pz9RD_t9UeYq0d9fZ_JnfK/view?usp=sharing",
+      alt_name: "AWS",
+      color_code: "#4285F499",
+    },
     // {
     //   title: "ML on GCP",
     //   subtitle: "- GCP Training",
