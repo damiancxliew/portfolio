@@ -707,6 +707,30 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
+      id: "ELEOS: An E-Commerce Website",
+      name: "ELEOS: An E-Commerce Website",
+      createdAt: "Aug 2024 - PresentT00:00:00Z",
+      description:
+        "Developed a streamlined ReactJS solution for NFS to optimize the sale of over 500 merchandise items. Utilized MongoDB for secure data storage and organization, implementing middleware and JWT authentication to ensure privacy and compliance for 500+ users. Designed an intuitive user interface that enhances customer experience by enabling seamless account setup, item browsing, cart management, and multiple payment options, improving overall efficiency by 20%.",
+      url: "https://github.com/NUS-Fintech-Society/SD_ECommerce_Website_2025/",
+    },
+    {
+      id: "Innersphere Web Forum",
+      name: "Innersphere Web Forum",
+      createdAt: "2025T00:00:00Z",
+      description:
+        "Innersphere Forum is a full-stack web-forum application, consisting of a Golang backend server and a React frontend client. The application provides users with a seamless platform to interact and share ideas through threads and comments.",
+      url: "https://innersphereforum.netlify.app/",
+    },
+    {
+      id: "NAVIHEALTH: Predictive AI for Resilient Port Operations",
+      name: "NAVIHEALTH: Predictive AI for Resilient Port Operations",
+      createdAt: "2024T00:00:00Z",
+      description:
+        "SmartNavigator+: Spearheaded the integration of AI predictive analytics with a KNN model to anticipate risks such as geopolitical tensions and weather anomalies, transforming the system from reactive to proactive and improving operational resilience. SmartFleet: Led the design and implementation of a digital twin of critical port facilities using IoT sensors for real-time data collection, integrating a Multivariate Linear Regression Model for proactive health monitoring to analyze variables, predict equipment failures, and enhance system reliability.",
+      url: "https://github.com/Rayner3103/PSA_Hackathon_2024_NAVIHEALTH/",
+    },
+    {
       id: "Recognition of Handwritten Mathematical Expressions",
       name: "Recognition of Handwritten Mathematical Expressions",
       createdAt: "2022 - 2023T00:00:00Z",

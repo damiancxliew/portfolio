@@ -6,7 +6,6 @@ export default function PublicationCard({ pub, theme }) {
   function openPubinNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
-    // onClick={() => openPubinNewTab(pub.url)}
   }
 
   return (
@@ -15,7 +14,10 @@ export default function PublicationCard({ pub, theme }) {
       style={{ backgroundColor: theme.highlight }}
     >
       <Fade bottom duration={500} distance="40px">
-        <div key={pub.id}>
+        <div
+          key={pub.id}
+          onClick={() => (pub.url ? openPubinNewTab(pub.url) : "")}
+        >
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
               {pub.name}
