@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always challenges status quo to develop sustainable products that bring positive impact to the society.",
   resumeLink:
-    "https://drive.google.com/file/d/1w87CA8nOD_o0-mQbCx6MMZS-WWrP4LyB/view?usp=sharing", // need to change resume link
+    "https://drive.google.com/file/d/1TNfyeYMXX5von4121dV93VR3s7aWeP6B/view?usp=sharing", // need to change resume link
   portfolio_repository: "https://github.com/damiancxliew",
   githubProfile: "https://github.com/damiancxliew",
   // imageSrc: "Formal_pic.jpg",
