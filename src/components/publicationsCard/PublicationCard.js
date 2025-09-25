@@ -26,6 +26,9 @@ export default function PublicationCard({ pub, theme }) {
           <p className="publication-description" style={{ color: theme.text }}>
             {pub.description}
           </p>
+          <p className="publication-tech-stack" style={{ color: theme.text }}>
+            Tech Stack: {pub.techStack}
+          </p>
           <div className="publication-details">
             <p
               className="publication-creation-date subTitle"

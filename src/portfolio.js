@@ -381,7 +381,7 @@ const degrees = {
       subtitle: "Bachelor in Computer Science",
       logo_path: "nus.png",
       alt_name: "NUS",
-      duration: "2024 - 2028",
+      duration: "2024 - 2027",
       descriptions: [
         // "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Deputy Director of the SWE Department in NUS StartIT and Technical Lead of the NUS Fintech Society.",
@@ -542,6 +542,17 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Algorithm Engineer",
+          company: "Huawei Research Centre",
+          company_url: "https://consumer.huawei.com/sg/",
+          logo_path: "huawei_logo.png",
+          duration: "Mar 2025 - July 2025",
+          location: "Singapore & Suzhou, China",
+          description:
+            "Built PyAscpp, a C++/Python framework supporting low-latency LLMs model training on Ascend NPUs, enabling developers to follow PyTorch-style coding while optimising for hardware efficiency. Besides, I also participated in developing and optimising Python-C++ API bridges to accelerate AI inference performance, minimising overhead in model serving and deployment.",
+          color: "#000000",
+        },
+        {
           title: "Software Engineer",
           company: "Rajang Digital Solutions",
           company_url: "https://www.info.rajang.com/",
@@ -630,6 +641,17 @@ const experience = {
       title: "CCAs",
       experiences: [
         {
+          title: "Director of Software Development Department",
+          company: "NUS Fintech Society",
+          company_url: "https://fintechsociety.comp.nus.edu.sg",
+          logo_path: "nus.png",
+          duration: "Aug 2025 - Present",
+          location: "Singapore",
+          description:
+            "As the director, I am responsible for setting projects' directions and scope, while overseeing the projects' progress. Current projects include NUS FinTech Dashboard and NFS x Heymax Telebot",
+          color: "#D83B01",
+        },
+        {
           title: "Deputy Director of SWE Department",
           company: "NUS StartIT",
           company_url: "https://nusstartit.vercel.app/",
@@ -648,7 +670,7 @@ const experience = {
           duration: "Aug 2024 - May 2025",
           location: "Singapore",
           description:
-            "NUS Fintech Society is a community of Fintech enthusiasts looking for opportunities to learn and grow. As a technical lead, I led a team of enthusiast developers to build fintech applications and products.",
+            "NUS Fintech Society is a community of Fintech enthusiasts looking for opportunities to learn and grow. As a technical lead, I led a team of enthusiast developers to build ELEOS: An E-Commerce Platform.",
           color: "#D83B01",
         },
         {
@@ -707,52 +729,83 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "ELEOS: An E-Commerce Website",
-      name: "ELEOS: An E-Commerce Website",
-      createdAt: "Aug 2024 - PresentT00:00:00Z",
+      id: "n8n Travel Telebot",
+      name: "n8n Travel Telebot",
+      createdAt: "2025",
       description:
-        "Developed a streamlined ReactJS solution for NFS to optimize the sale of over 500 merchandise items. Utilized MongoDB for secure data storage and organization, implementing middleware and JWT authentication to ensure privacy and compliance for 500+ users. Designed an intuitive user interface that enhances customer experience by enabling seamless account setup, item browsing, cart management, and multiple payment options, improving overall efficiency by 20%.",
-      url: "https://github.com/NUS-Fintech-Society/SD_ECommerce_Website_2025/",
+        "Telegram automation bot for travel finance and itinerary management, integrating APIs and workflow automation.",
+      techStack: "n8n, Node.js, Telegram Bot API, REST APIs",
+      url: "https://web.telegram.org/k/#@nfs_heymax_bot",
+    },
+    {
+      id: "Stock Tracker",
+      name: "Stock Tracker",
+      createdAt: "2025",
+      description:
+        "Streamlit app to track stock performance with SEC filing analysis, robust Yahoo Finance integration, caching, and visualization.",
+      techStack: "Python, Streamlit, Pandas, yfinance, Plotly",
+      url: "https://damian-stocktracker.streamlit.app/",
+    },
+    {
+      id: "Data Visualisation Dashboard",
+      name: "Data Visualisation Dashboard",
+      createdAt: "2025",
+      description:
+        "Interactive dashboard providing data exploratory tools, and AI-powered insights",
+      techStack: "ReactJS, Streamlit, OpenAI API, Pandas, Recharts",
+      url: "https://data-visualisation-dashboard.streamlit.app/",
     },
     {
       id: "Innersphere Web Forum",
       name: "Innersphere Web Forum",
-      createdAt: "2025T00:00:00Z",
+      createdAt: "2025",
       description:
-        "Innersphere Forum is a full-stack web-forum application, consisting of a Golang backend server and a React frontend client. The application provides users with a seamless platform to interact and share ideas through threads and comments.",
+        "Developed a discussion forum for idea-sharing with threads, comments, and seamless user experience.",
+      techStack: "Golang, ReactJS, PostgreSQL, Netlify",
       url: "https://innersphereforum.netlify.app/",
+    },
+    {
+      id: "ELEOS: An E-Commerce Website",
+      name: "ELEOS: An E-Commerce Website",
+      createdAt: "Aug 2024 - Present",
+      description:
+        "Built a full-stack e-commerce platform for NFS merchandise, supporting 500+ items and user accounts with secure transactions.",
+      techStack: "ReactJS, Node.js, Express, MongoDB, JWT, Vercel",
+      url: "https://sd-e-commerce-website-2025-client.vercel.app/",
     },
     {
       id: "NAVIHEALTH: Predictive AI for Resilient Port Operations",
       name: "NAVIHEALTH: Predictive AI for Resilient Port Operations",
-      createdAt: "2024T00:00:00Z",
+      createdAt: "2024",
       description:
-        "SmartNavigator+: Spearheaded the integration of AI predictive analytics with a KNN model to anticipate risks such as geopolitical tensions and weather anomalies, transforming the system from reactive to proactive and improving operational resilience. SmartFleet: Led the design and implementation of a digital twin of critical port facilities using IoT sensors for real-time data collection, integrating a Multivariate Linear Regression Model for proactive health monitoring to analyze variables, predict equipment failures, and enhance system reliability.",
+        "PSA Hackathon project integrating predictive AI and digital twins to enhance port resilience and equipment reliability.",
+      techStack:
+        "Python, KNN, Multivariate Linear Regression, IoT Sensors, GitHub",
       url: "https://github.com/Rayner3103/PSA_Hackathon_2024_NAVIHEALTH/",
     },
     {
       id: "Recognition of Handwritten Mathematical Expressions",
       name: "Recognition of Handwritten Mathematical Expressions",
-      createdAt: "2022 - 2023T00:00:00Z",
+      createdAt: "2022 - 2023",
       description:
-        "Participated in the Nanyang Research Programme where I collaborated with Nanyang Technological University on an innovative research project focused on the recognition of handwritten mathematical expressions. This experience not only deepened my understanding of neural network architectures but also honed my research and problem-solving skills in a cutting-edge technological domain.",
-      // url: "",
+        "Research with NTU on neural network architectures for handwritten mathematical expression recognition.",
+      techStack: "Python, PyTorch, CNNs, RNNs",
     },
     {
       id: "Amazon Web Services (AWS): Build On, ASEAN 2021 Hackathon",
-      name: "Amazon Web Services (AWS): Build On, ASEAN 2021 Hackathon",
-      createdAt: "2021T00:00:00Z",
+      name: "AWS Build On ASEAN Hackathon",
+      createdAt: "2021",
       description:
-        "Developed a website as a prototype to help encourage people to sell and buy pre-owned products on Carousell. Solution was divided into 3 parts, which are point-based reward system, warranty system and wish-list system. Achieved 1st Runner Up in Junior Category (Singapore)",
-      // url: "https://blog.paperspace.com/mdp-diffusion/",
+        "Prototype platform promoting circular economy through resale of pre-owned goods; won 1st Runner Up (Junior Category, SG).",
+      techStack: "ReactJS, Firebase, AWS",
     },
     {
       id: "The Lo-Car",
       name: "The Lo-Car",
-      createdAt: "2020 - 2021T00:00:00Z",
+      createdAt: "2020 - 2021",
       description:
-        "Developed a mobile application using MIT App Inventor and Firebase to help forgetful drivers to find the exact location of their parked cars. Achieved Merit Award in the Tan Kah Kee Young Inventors Award.",
-      // url: "https://arxiv.org/abs/2307.00653",
+        "Mobile app helping drivers locate parked cars; awarded Merit in Tan Kah Kee Young Inventors Award.",
+      techStack: "MIT App Inventor, Firebase",
     },
   ],
 };
@@ -761,7 +814,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "Formal_pic_cropped.png",
+    profile_image_path: "Formal_pic_new.png",
     description: "",
   },
   // blogSection: {

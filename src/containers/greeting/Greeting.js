@@ -45,7 +45,7 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img src={require(`../../assets/images/Formal_pic.jpg`)} alt="" />
+            <img src={require(`../../assets/images/Portfolio.png`)} alt="" />
             {/* <img
 							alt="saad sitting on table"
 							src={require("../../assets/images/feelingProud.svg")}
