@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b0ee2214bb4d82809c243ec1251e7f2",
+    "revision": "75042431e8d820748f348dcd6d32d7a0",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3d885aad40a4d67a71af",
-    "url": "/portfolio/static/css/main.e9adbc15.chunk.css"
+    "revision": "b98ef620270daeca8123",
+    "url": "/portfolio/static/css/main.dda688f6.chunk.css"
   },
   {
-    "revision": "4da96cd0e816bcc15f2c",
-    "url": "/portfolio/static/js/2.267e74d7.chunk.js"
+    "revision": "55b7f5e72090d6b7d2ee",
+    "url": "/portfolio/static/js/2.57f1eefb.chunk.js"
   },
   {
-    "revision": "3d885aad40a4d67a71af",
-    "url": "/portfolio/static/js/main.c9e6acb1.chunk.js"
+    "revision": "b98ef620270daeca8123",
+    "url": "/portfolio/static/js/main.38be2aea.chunk.js"
   },
   {
     "revision": "e73ac9e279836ecdfedf",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2247a653b4bfe5e3faf5f17fd33e23f6",
     "url": "/portfolio/static/media/Formal_pic_cropped.2247a653.png"
+  },
+  {
+    "revision": "ffa57f4303d7de89a8e00b06363c5648",
+    "url": "/portfolio/static/media/Formal_pic_new.ffa57f43.png"
   },
   {
     "revision": "ab52c2a68832ab854823d181f3ac9a42",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "33975dec2712d14dd7ad146367807cfe",
+    "url": "/portfolio/static/media/Portfolio.33975dec.png"
   },
   {
     "revision": "09ae23d79861372930174e729ec264da",
@@ -210,6 +218,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6addc3fb6605480614b992ede8cd434",
     "url": "/portfolio/static/media/googleAssistant.a6addc3f.svg"
+  },
+  {
+    "revision": "19e56ec13358d06ceb814b756d75e636",
+    "url": "/portfolio/static/media/huawei_logo.19e56ec1.png"
   },
   {
     "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
